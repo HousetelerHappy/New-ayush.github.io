@@ -1,0 +1,4 @@
+align-item vs justify content vs align self 
+gradient 
+transistion
+add icon in the button

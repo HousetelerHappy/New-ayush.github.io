@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.hero_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 20px;
+}
+.hero_logo img {
+  padding-left: 10px;
+}
+
+.hero_navLinks ul {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  text-decoration: none;
+}
+.hero_navLinks ul li {
+  list-style-type: none;
+  color: slategray;
+  font-weight: 500;
+}
+.hero_navLinks ul li a {
+  text-decoration: none;
+  color: darkslategray;
+}
+
+.hero_nav_button ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 10px;
+}
+.hero_nav_button ul li {
+  text-decoration: none;
+  list-style: none;
+  margin-right: 20px;
+  font-weight: 700;
+  color: slategray;
+}
+.hero_nav_button ul li a {
+  text-decoration: none;
+  color: darkslategray;
+}
+.hero_nav_button button {
+  border-radius: 100px 0px 100px 100px;
+  padding: 15px 30px;
+  background-color: #ce39b7;
+  color: white;
+  box-shadow: 2px 2px 4px gray;
+}
+
+.hero_nav_button button:hover {
+  color: slateblue;
+  font-size: 14px;
+  transition: 2s ease-in-out 1s;
+}
+
+/*hero main screen items*/
+
+.hero_main_screen {
+  display: flex;
+  flex-direction: row;
+  background-image: url(./assets/back-image.png);
+}
+
+.hero_right {
+  padding-top: 40px;
+}
+.hero_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 40px;
+  width: 800px;
+}
+
+.hero_left h1 {
+  font-size: 60px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.hero_left h4 {
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  line-height: 30px;
+  letter-spacing: 1.5px;
+  word-spacing: 2.5px;
+}
+.hero_left button {
+  width: 400px;
+  padding: 20px 10px;
+  border-radius: 100px 0px 100px 100px;
+  /* background-color: #ce39b7; */
+  color: white;
+  font-weight: 800;
+  background-color: #ce39b7;
+
+  font-size: larger;
+}
+.hero_left button:hover {
+  font-size: 20px;
+  transition: ease-in-out;
+}
+.hero_left button i {
+  padding-left: 10px;
+}
+
+.features {
+}
